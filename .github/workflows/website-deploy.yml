@@ -35,7 +35,6 @@ jobs:
             scp -i devapacheserver.pem -o StrictHostKeyChecking=no about.html $SERVER_USER@$SERVER_HOST:/tmp/
           continue-on-error: true
 
-    # 
     # devdeploy:
     #   name: Dev Env Deployment
     #   runs-on: ubuntu-latest

@@ -42,8 +42,6 @@ on:
     branches:
       - master
 
-  # workflow_dispatch:
-
 jobs:
   devdeploy:
     name: Dev Env Deployment

@@ -5,8 +5,7 @@ on:
     branches:
       - main
 
-workflow_dispatch:
-manual:
+  workflow_dispatch:
 
 jobs:
   deploy:

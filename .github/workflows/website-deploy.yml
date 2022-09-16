@@ -40,7 +40,7 @@ name: Simple Web Application Deployment
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   devdeploy:
